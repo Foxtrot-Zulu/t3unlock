@@ -44,10 +44,11 @@ Make sure the USB device with vendorId = 0x04e8 and productId = 0x61f4 is connec
           python t3unlock.py <password>
 
 ```
-*Replace* <password> *with the actual password you want to use.*
+*Replace* `<password>` *with the actual password you want to use.*
 
 4. Permissions:
 * On Linux, you might need to run the script with elevated permissions (using sudo) if your user doesn't have the necessary permissions to interact with USB devices:
+
 ```shell
           sudo python t3unlock.py <password>
 ```
